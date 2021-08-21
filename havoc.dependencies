@@ -1,0 +1,12 @@
+[
+  {
+    "repository" : "wudilsr/android_vendor_xiaomi_pine",
+    "target_path": "vendor/xiaomi/pine",
+    "branch"     : "eleven"
+  },
+  {
+    "repository" : "wudilsr/android_kernel_xiaomi_pine",
+    "target_path": "kernel/xiaomi/pine",
+    "branch"     : "eleven"
+  }
+]
