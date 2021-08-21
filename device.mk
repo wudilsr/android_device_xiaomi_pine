@@ -143,7 +143,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     $(LOCAL_PATH)/configs/gps/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     $(LOCAL_PATH)/configs/gps/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf
-
+    
+PRODUCT_PACKAGES += \
+    libwifi-hal-ctrl \
+    libcurl
+    
 # Health HAL
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
